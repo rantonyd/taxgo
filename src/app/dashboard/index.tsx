@@ -1,37 +1,4 @@
-// import React from 'react';
-// import Logo from "../../assets/landing bg img 1.png";
-// import "./styles.scss";
-// import WebsiteHeader from '../../components/websiteHeader';
-// function DashBoard() {
-//   return (
-//    <>
-//     <div className='dashBoard'>
-//       <div className='dashBoard-Box1'>
-//         <div className='image-text-container'>
-//           <img className="img1" src={ Logo } alt="" /> 
-//             <div className="header-overlay">
-//                <WebsiteHeader/> 
-//             </div>
-//         </div>
-//         <div className="dashBoard-Box2">
-//             <div className="dashBoard-Box3">
-//               <div>
-//                 <div className="dashBoard-Txt1">Simple, Best & Affordable 
-//                                        <br/> Accounting Software Solution</div>
-                
-                
-//               </div>
-          
-//             </div>
-            
-//         </div>
-//       </div>
-//     </div>
-//    </>
-//   )
-// }
 
-// export default DashBoard;
 import React from "react";
 import WebsiteHeader from "../../components/websiteHeader";
 import Logo from "../../assets/landing bg img 1.png";
