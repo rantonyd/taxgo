@@ -1,0 +1,385 @@
+
+.dashBoard-Box1 {
+    width: 100%;
+    height: 100vh;
+    @media Screen and (max-width: 560px) {
+      display: none;
+     }
+  }
+  .dashBoard-Box2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .header-container{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px; 
+    z-index: 2;
+  }
+  .image-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  
+  }
+  .dashBoard-Box3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .dashBoard-Box4 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .dashBoard-Box5 {
+    width:550px;
+    height: 380px;
+    @media(min-width:560px) and (max-width: 990px){
+      width: 390px;
+      height: 290px;
+    }
+  }
+  .dashBoard-Box6 {
+    width: 100%;
+    height: 80px;
+  }
+  .img-fluid{
+    width: 70%;
+    height: 190px;
+    @media(min-width:560px) and (max-width: 990px){
+      padding: 30px 0px 0px 0px;
+      width: 50%;
+      height: 100px;
+
+     }
+  }
+  .dashBoard-Box7 {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    justify-content: space-between;
+    text-align: left;
+    @media(min-width:560px) and (max-width: 990px){
+      width: 300px;
+      height: 70px;
+     }
+  }
+  .dashBoard-Box10 {
+    width: 100%;
+    height: 15vh;
+  }
+  
+  .dashBoard-carousalImg {
+    height: 100vh;
+    width: 100%;
+    // object-fit: contain;
+    display: block;
+  }
+  .dashBoard-Txt1 {
+    color: #000000;
+    height: 195px;
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: left;
+    @media(min-width:560px) and (max-width: 990px){
+     display: none;
+    }
+
+  }
+  .dashBoard-Txt2{
+    @media Screen and (min-width: 990px) {
+      display: none;
+     }
+    @media(min-width:560px) and (max-width: 990px){
+      color: black;
+      height: 70px;
+      font-size: 25px;
+      font-family:  'Montserrat', sans-serif;
+      font-weight: 700;
+      width: 100%;
+      text-align: left;
+  
+    }
+  }
+  .dashBoard-img{
+    color:white;
+    text-align: left;
+    width: 100%;
+    height: 190px;
+    @media(min-width:560px) and (max-width: 990px){
+      height: 120px;
+     }
+  }
+  
+  .dashBoard-Box8 {
+    background: linear-gradient(286.1deg, #0EA000 12.77%, #38CD2A 84.05%);
+    height: 44px;
+    width: 165px;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: 0px 4px 20px 0px #FFFFFF99;
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+   
+    @media(min-width:560px) and (max-width: 990px){
+      height: 34px;
+      width: 135px;
+      border-radius: 6px;
+     }
+
+    
+  }
+  .dashBoard-Box9 {
+    height: 44px;
+    width: 165px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+  }
+  ///DashBoard-Mobile////
+  .dashBoard-Mbox1 {
+    width: 100%;
+    height: 100vh;
+    @media Screen and (min-width: 561px) {
+      display: none;
+     }
+  }
+  .dashBoard-Mbox2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .Mimage-container{
+    position: relative;
+    width: 100%;
+    // height: 100vh;
+    height: 590px;
+  
+  }
+ .dashBoard-McarousalImg{
+  height: 100%;
+    width: 100%;
+    // object-fit: contain;
+    display: block;
+ }
+ .top-mdiv {
+  position: absolute;
+  top: 22%;
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 100%;
+  height: 150px; 
+ 
+}
+.mdiv1{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #34B628;
+
+}
+.mdiv2{
+  
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+.dashBoard-Mbox3{
+  width: 100%;
+}
+.Mbox-01{
+  font-family: Montserrat;
+font-size: 19px;
+font-weight: 800;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+padding: 10px 0px 0px 0px;
+
+}
+.Mbox-02{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+}
+.bu{
+  font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+background: #34B628;
+width: 70%;
+height: 40px;
+}
+.Mbox-03{
+  text-align: center;
+}
+////CardHeader////
+.cardHeader{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  @media(min-width:560px) and (max-width: 990px){
+   height: 100vh;
+   padding: 30px 0px 0px 0px;
+   }
+   @media Screen and (max-width: 560px) {
+    height: auto;
+  }
+  // background-color: #0EA000;
+}
+.cardHeader-Box1{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    @media(min-width:560px) and (max-width: 990px){
+      height: 100%;
+    gap: 10px;
+      }
+      @media Screen and (max-width: 560px) {
+        height: auto;
+      }
+    // background-color: #000000;
+}
+.cardHeader-Box2{
+  width: 100%;
+  height: 80px;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #34B628;
+  padding: 20px 0px 0px 0px;
+
+}
+.cardHeader-Box3{
+  width: 100%;
+  height: 450px;
+  // background-color: brown;
+  display: flex;
+ 
+  justify-content: space-between;
+  @media(min-width:560px) and (max-width: 990px){
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   @media Screen and (max-width: 560px) {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+
+
+  }
+   
+
+.card{
+  width:20%;
+  height: auto;
+  
+  
+  @media(min-width:560px) and (max-width: 990px){
+    width: 48%;
+    height: auto;
+    margin-bottom: 15px;
+   }
+  
+  
+}
+.cardpic{
+  width: 100%;
+  height: 200px;
+  padding: 0px 0px 10px 0px;
+}
+.cardfeature{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 900;
+  // line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #34B628;
+  padding: 0px 0px 10px 0px;
+}
+.cardexp{
+  height: 100px;
+  align-items: center;
+  display: flex;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.get{
+  background: linear-gradient(286.1deg, #0EA000 12.77%, #38CD2A 84.05%);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+.get:hover {
+   
+  color:   #FFFFFF!important;
+  border: 1.5px solid #34B628 !important;
+}
+.cardHeader-Box4{
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+}
